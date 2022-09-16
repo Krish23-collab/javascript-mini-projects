@@ -20,7 +20,9 @@ function handleSubmit(event){
   
     let cross = document.createElement("p");
     cross.classList.add("cross");
+    
     cross.innerHTML = "❌";
+    
    let hr = document.createElement('hr');
     cross.addEventListener("click", () => {
       list.innerText = "";
